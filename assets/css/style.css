@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+	background-color:gray;
+}
+
+.container{
+	max-width:1170;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.Big-Loyout > *{
+	border: 2px solid blue;
+	background-color:gray;
+    
+}
+
+
+
+.Big-Loyout  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.Big-Loyout{
+    display: grid;
+    grid-template-columns: repeat(7,1fr );
+    grid-auto-rows: 200px;
+	grid-template-areas:
+	
+	"link-1 link-1 link-2 link-3 link-4 link-5 link-5"
+	"link-6 link-6 link-7 link-7 link-8 link-9 link-10"
+	"link-6 link-6 link-11 link-12 link-8 link-13 link-14"
+	;
+	
+}
+
+
+.small-link1{
+	grid-area:link-1;
+	
+}
+
+.small-link2{
+	grid-area:link-2;
+	
+}
+
+.small-link3{
+	grid-area:link-3;
+	
+}
+
+.small-link4{
+	grid-area:link-4;
+	
+}
+
+.small-link5{
+	grid-area:link-5;
+	
+}
+
+.small-link6{
+	grid-area:link-6;
+	
+}
+
+.small-link7{
+	grid-area:link-7;
+	
+}
+
+.small-link8{
+	grid-area:link-8;
+	
+}
+
+.small-link9{
+	grid-area:link-9;
+	
+}
+
+.small-link10{
+	grid-area:link-10;
+	
+}
+
+
+.small-link11{
+	grid-area:link-11;
+	
+}
+
+
+.small-link12{
+	grid-area:link-12;
+	
+}
+
+.small-link13{
+	grid-area:link-13;
+	
+}
+
+
+.small-link14{
+	grid-area:link-14;
+	
+}
+
+
+
+
+@media screen and (min-width:300px) and (max-width:600px){
+   .Big-Loyout{
+	   
+	   display: block;
+	   width: 100%;
+       grid-template-areas:
+	   
+	   "link-1 link-1 link-2 link-3 link-4 link-5 link-5"
+	   "link-6 link-6 link-7 link-7 link-8 link-9 link-10"
+	   "link-6 link-6 link-11 link-12 link-8 link-13 link-14"
+	  ;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
